@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:background="@color/Black"
+
+    tools:context="com.example.android.androidassignment_32.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Credit Card Helper"
+        android:gravity="top"
+        android:textColor="@color/White"
+        android:background="@color/gray"
+        android:layout_weight="1"
+        android:padding="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="@dimen/text_view_width"
+            android:layout_height="match_parent"
+            android:textColor="@color/White"
+            android:text="Enter Card Balance($)"
+            android:layout_margin="@dimen/text_view_margin"
+            android:background="@color/Black"
+
+        />
+
+        <EditText
+
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="match_parent"
+
+            android:layout_margin="@dimen/edit_text_margin"
+            android:background="@color/White"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="@dimen/text_view_width"
+            android:layout_height="match_parent"
+            android:textColor="@color/White"
+            android:text="Enter Yearly Interest Rate(%)"
+            android:layout_margin="@dimen/text_view_margin"
+            android:background="@color/Black"
+
+            />
+
+        <EditText
+
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="match_parent"
+
+            android:layout_margin="@dimen/edit_text_margin"
+            android:background="@color/White"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="@dimen/text_view_width"
+            android:layout_height="match_parent"
+            android:textColor="@color/White"
+            android:text="Enter Minimum Payment($)"
+            android:layout_margin="@dimen/text_view_margin"
+            android:background="@color/Black"
+
+            />
+
+        <EditText
+
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="match_parent"
+
+            android:layout_margin="@dimen/edit_text_margin"
+            android:background="@color/White"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="@dimen/text_view_width"
+            android:layout_height="match_parent"
+            android:textColor="@color/White"
+            android:text="Final Card Balance($)"
+            android:layout_margin="@dimen/text_view_margin"
+
+            android:background="@color/Black"
+
+            />
+
+        <EditText
+
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="match_parent"
+
+            android:layout_margin="@dimen/edit_text_margin"
+            android:background="@color/White"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="@dimen/text_view_width"
+            android:layout_height="match_parent"
+            android:textColor="@color/White"
+            android:text="Months Remaining"
+            android:layout_margin="@dimen/text_view_margin"
+            android:background="@color/Black"
+
+            />
+
+        <EditText
+
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="match_parent"
+
+            android:layout_margin="@dimen/edit_text_margin"
+            android:background="@color/White"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:layout_width="@dimen/text_view_width"
+            android:layout_height="match_parent"
+            android:textColor="@color/White"
+            android:text="Interest Piad Will be($)"
+            android:layout_margin="@dimen/text_view_margin"
+            android:background="@color/Black"
+
+            />
+
+        <EditText
+
+            android:layout_width="@dimen/edit_text_width"
+            android:layout_height="match_parent"
+
+            android:layout_margin="@dimen/edit_text_margin"
+            android:background="@color/White"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/Black"
+            android:text="Compute"
+            android:layout_margin="@dimen/button_margin"
+            android:background="@color/White"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/Black"
+            android:text="Clear"
+            android:layout_margin="@dimen/button_margin"
+            android:background="@color/White"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
